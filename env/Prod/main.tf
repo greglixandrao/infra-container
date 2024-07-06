@@ -1,8 +1,8 @@
 module "Producao" {
-  source = "../../infra"
-  name = "producao"
-  description = "Django-Aplication-Production"
-  environment = "Prod"
-  server = "t2.micro"
-  max = 5
+  source      = "../../infra"
+  name        = "producao"
+  description = "django-aplication-production"
+  environment = "prod"
+  server      = "t2.micro"
+  max         = 5
 }
